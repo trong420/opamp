@@ -56,27 +56,41 @@
 
 **3. Results** 
 
-- Simulation of Av
+- LTSPICE schematic:
+
+![image](https://github.com/trong420/opamp/assets/90754954/5957e14f-97b3-4562-851d-b2453d540471)
+
+
+- Simulation of Av: Vpp of Vin is 10uV, Vpp of Vout is 56.3mV => Av = 56.3mV / 10uV = 5630 V/V
 
 ![image](https://github.com/trong420/opamp/assets/90754954/6248851c-35b8-4399-b26f-641500c95a88)
-![image](https://github.com/trong420/opamp/assets/90754954/5b9ba96d-5657-4f55-a983-5c644aa82fc5)
 
 
-- Simulation of Gain Bandwidth and Phase Margin
+
+- Simulation of Gain Bandwidth and Phase Margin: At 0dB have GB = 9.23MHz and PM = 180 - 112 = 68 degree
 
 ![image](https://github.com/trong420/opamp/assets/90754954/07dbe034-5ecb-4034-975e-36ba54a36e6f)
 
 
-- Simulation of ICMR
+- Simulation of ICMR: Connect Vout with Vin(-) and simulate in DC mode has ICMR: -0.081V -> 0.333V
 
 ![image](https://github.com/trong420/opamp/assets/90754954/f26bf245-4a24-42a7-afca-1c4d2deb8abe)
 
 
-- Simulation of Vout range
+- Simulation of Vout range: simulate with DC mode has Vout range: -0.64V -> 0.753V 
 
 ![image](https://github.com/trong420/opamp/assets/90754954/5d2b83c4-1534-4bc0-9fee-85e584110f82)
 
+- Simulation of Slew Rate:
 
-```bash
-source scripts/opt_ctrl.tcl
-```
+![image](https://github.com/trong420/opamp/assets/90754954/ce39c008-d5d1-4226-a7b1-c6c86c596c7f)
+
+- Simulation of Power Dissipation
+
+![image](https://github.com/trong420/opamp/assets/90754954/1dcff3d7-54e6-4059-991c-cd7579f25ffe)
+
+
+**Comparision**
+
+
+![image](https://github.com/trong420/opamp/assets/90754954/04ac654d-d562-4dd1-ac66-78b4fcbea929)
