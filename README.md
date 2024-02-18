@@ -27,7 +27,8 @@
 
 - Find W3, W4
 
-![image](https://github.com/trong420/opamp/assets/90754954/264776f6-91b6-4fb2-bd94-4b7a94e83f8c)
+![image](https://github.com/trong420/opamp/assets/90754954/7671a68c-91a3-4283-a10e-fe150b2662f8)
+
 
 - Find W1, W2
 
@@ -40,7 +41,8 @@
 - Find W6
 
 
-![image](https://github.com/trong420/opamp/assets/90754954/4e1f430a-06e1-4610-833c-d12291a1bdc7)
+![image](https://github.com/trong420/opamp/assets/90754954/197026ce-72f4-4b9d-96e0-e8225feb8187)
+
 
 - Find W7 and calculate Av, Pdiss
 
